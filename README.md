@@ -1,16 +1,25 @@
 ## Hi there 👋
 
-<!--
-**klixxs/klixxs** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```java 
+public class Klixxs {
+    private String name;
+    private String username;
+    private int age;
+    private String location;
+    private String instagram;
+    private String discord;
 
-Here are some ideas to get you started:
+    public Klixxs() {
+        this.name = "Jonathan";
+        this.username = "klixxs";
+        this.age = 17;
+        this.location = "Berlin, Germany";
+        this.instagram = "@jonathan.hfn";
+        this.discord = "@klixxs";
+    }
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    public static void main(String[] args) {
+        Klixxs me = new Klixxs();
+	System.out.println(me);
+    }
+}
