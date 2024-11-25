@@ -12,7 +12,7 @@ public class Klixxs {
     public Klixxs() {
         this.name = "Jonathan";
         this.username = "klixxs";
-        this.age = 17;
+        this.age = 18;
         this.location = "Berlin, Germany";
         this.instagram = "@jonathan.hfn";
         this.discord = "@klixxs";
